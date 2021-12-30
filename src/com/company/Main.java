@@ -44,14 +44,18 @@ public class Main {
             int deliveryTime = 1;
             if (deliveryDistance <= 20) {
                 System.out.println("Потребуется дней: " + deliveryTime);
+            }
                 int Time = deliveryTime + 1;
-                if ((deliveryDistance > 20) && (deliveryDistance < 60))
+                if ((deliveryDistance > 20) && (deliveryDistance < 60)) {
                     System.out.println("Потребуется дней: " + Time);
+                }
                 int Time1 = Time + 1;
-                if ((deliveryDistance > 60) && (deliveryDistance <= 100))
+                if ((deliveryDistance > 60) && (deliveryDistance <= 100)) {
                     System.out.println("Потребуется дней: " + Time1);
+                }
 
                 // задание №5
+
                 int month = 12;
                 switch (month) {
                     case 1 -> System.out.println("Зима 2");
@@ -71,4 +75,3 @@ public class Main {
             }
         }
     }
-}
